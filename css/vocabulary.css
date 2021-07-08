@@ -1,0 +1,58 @@
+body {
+  background-color: #f9f9f9;
+}
+
+form {
+  display: flex;
+  margin-top: 30px;
+  max-width: 80%;
+  text-align: justify;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px 10px;
+}
+
+form > input {
+  min-width: 40%;
+  border: 1px solid darkgray;
+  border-radius: 20px;
+}
+
+form > label {
+  font-size: 10px;
+  transform: translateY(8px);
+  font-style: bold;
+  color: darkblue;
+}
+
+form > button {
+  min-width: 10%;
+  line-height: 40px;
+  font-size: 15px;
+  color: white;
+  border: none;
+  box-shadow: 30px;
+  border-radius: 20px;
+}
+
+form > #save_button {
+  background-color: rgb(8, 212, 93);
+}
+
+form > #reset_button {
+  background-color: rgb(10, 73, 247);
+}
+
+h3 {
+  text-align: center;
+
+  margin-top: 40px;
+  font-size: 20px;
+  color: rgba(19, 115, 241, 0.582);
+}
+
+.list > {
+  display: grid;
+  padding: 20px;
+  background-color: aqua;
+}
